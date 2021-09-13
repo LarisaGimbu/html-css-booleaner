@@ -8,3 +8,21 @@ header{
 .logo{
   width: 140px;
 }
+
+h1{
+  margin-bottom: 0;
+}
+
+.sottotitolo{
+  color: lightgray;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.autore{
+  color: lightblue;
+}
+
+.data{
+  font-size: 10px;
+}
