@@ -15,6 +15,11 @@ header{
 .logo{
   width: 135px;
   margin-top: 25px;
+  margin-left: 8px;
+}
+
+main{
+  margin-left: 8px;
 }
 
 h1{
@@ -48,7 +53,7 @@ h1{
 }
 
 ul{
-  margin-left: 30px;
+  margin-left: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -74,3 +79,24 @@ th{
   width: 50%;
 }
 
+.paragrafo-finale{
+  margin-bottom: 20px;
+}
+
+.footer h4{
+  width: 230px;
+  height: 200px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.for-more1{
+  background-image: url(../img/monitor.jpg);
+}
+
+.for-more2{
+  background-image: url(../img/graph.jpg);
+}
