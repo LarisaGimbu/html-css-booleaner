@@ -1,28 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 header{
-  margin: auto;
+  margin: 0;
   height: 70px;
   background-image: url(../img/pattern.png);
-  background-color: rgb(1, 1, 126);
+  background-color: #2196f3;
+  background-size: 24%;
 }
 
 .logo{
-  width: 140px;
+  width: 135px;
+  margin-top: 25px;
 }
 
 h1{
   margin-bottom: 0;
+  margin-top: 10px;
+  font-family: 'PT Serif', serif;;
 }
 
 .sottotitolo{
-  color: lightgray;
+  color: #737373;
   font-size: 14px;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .autore{
-  color: lightblue;
+  color:#2196f3;
 }
 
 .data{
   font-size: 10px;
+}
+
+.didascalia{
+  font-size: 12px;
 }
