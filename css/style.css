@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* HEADER */
 header{
   margin: 0;
   height: 70px;
@@ -18,16 +19,18 @@ header{
   margin-left: 8px;
 }
 
-main{
+.container{
   margin-left: 8px;
 }
 
+/* MAIN  */
 h1{
   margin-bottom: 0;
   margin-top: 10px;
   font-family: 'PT Serif', serif;;
 }
 
+/* sottotitolo  */
 .sottotitolo{
   color: #737373;
   font-size: 14px;
@@ -42,6 +45,7 @@ h1{
 .data{
   font-size: 10px;
 }
+/* /sottotitolo  */
 
 .didascalia{
   font-size: 12px;
@@ -58,8 +62,13 @@ ul{
   margin-bottom: 20px;
 }
 
+/* tabella  */
 .tabella{
   margin-bottom: 20px;
+}
+
+table{
+  border-collapse: collapse;
 }
 
 thead{
@@ -78,11 +87,13 @@ th{
 .testo-lungo{
   width: 50%;
 }
+/* /tabella  */
 
 .paragrafo-finale{
   margin-bottom: 20px;
 }
 
+/* FOOTER  */
 .footer h4{
   width: 230px;
   height: 200px;
